@@ -2,8 +2,8 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package rizky150423.view;
-import rizky150423.controller.AnggotaController;
+package Raihan150423.view;
+import Raihan150423.controller.AnggotaController;
 /**
  *
  * @author ASUS
