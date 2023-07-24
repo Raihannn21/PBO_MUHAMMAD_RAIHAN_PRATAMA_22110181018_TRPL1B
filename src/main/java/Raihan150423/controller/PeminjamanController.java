@@ -10,7 +10,7 @@ import java.util.*;
 
 /**
  *
- * @author ASUS
+ * @author Acer
  */
 public class PeminjamanController {
     private FormPeminjaman formPeminjaman;

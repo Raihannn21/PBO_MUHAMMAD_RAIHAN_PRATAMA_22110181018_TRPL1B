@@ -8,7 +8,7 @@ import Raihan150423.model.*;
 import javax.swing.table.DefaultTableModel;
 /**
  *
- * @author ASUS
+ * @author Acer
  */
 public class AnggotaController {
     private FormAnggota formAnggota;
