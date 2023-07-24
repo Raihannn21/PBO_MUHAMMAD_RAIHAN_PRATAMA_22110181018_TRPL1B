@@ -10,9 +10,9 @@ import raihan.model.Anggota;
  * @author Acer
  */
 public interface AnggotaDao {
-    void insert (Anggota anggota) throws Exception;
-    void update (String index, Anggota anggota)throws Exception;
-    void delete (String index) throws Exception;
+    void insert(Anggota anggota) throws Exception;
+    void update(Anggota anggota) throws Exception;
+    void delete(Anggota anggota) throws Exception;
     Anggota getAnggota(String kode) throws Exception;
     List<Anggota> getAll() throws Exception;
 }

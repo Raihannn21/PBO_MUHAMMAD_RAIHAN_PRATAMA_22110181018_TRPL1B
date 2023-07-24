@@ -33,7 +33,7 @@ public class DbHelper {
     public static void main(String[] args) throws Exception {
         try {
             connection = DbHelper.getConnection();
-            AnggotaDao dao = new AnggotaDaoImpl(connection);
+            AnggotaDao dao = new AnggotaDaolmpl(connection);
             Anggota anggota=new Anggota("A002", "RAIHAN", "PADANG", "L" );
             dao.insert(anggota);
             JOptionPane.showMessageDialog(null, "Entri Data OK");
