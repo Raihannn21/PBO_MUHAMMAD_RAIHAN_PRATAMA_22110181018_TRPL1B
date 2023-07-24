@@ -9,47 +9,42 @@ package Raihan010423;
  * @author Acer
  */
 public class BukuAlamat {
-     private String nama;
+    private String nama;
     private String alamat;
-    private String no_telepon;
+    private String telp;
     private String email;
+    private static int count;
+
+    //constructor
+    public BukuAlamat(){
+        count++;
+    }
     
-    public BukuAlamat(String nama, String alamat, String no_telepon, String email) {
+    //mutator method
+    public void setNama(String nama){
         this.nama = nama;
+    }
+    public void setAlamat(String alamat){
         this.alamat = alamat;
-        this.no_telepon = no_telepon;
+    }
+    public void setTelpon(String telp){
+        this.telp = telp;
+    }
+    public void setEmail(String email){
         this.email = email;
     }
     
-    public void setNama(String nama) {
-        this.nama = nama;
+    //accessor method
+    public String getNama(){
+        return nama;
     }
-    
-    public String getNama() {
-        return this.nama;
+    public String getAlamat(){
+        return alamat;
     }
-    
-    public void setAlamat(String alamat) {
-        this.alamat = alamat;
+    public String getTelpon(){
+        return telp;
     }
-    
-    public String getAlamat() {
-        return this.alamat;
-    }
-    
-    public void setNoTelepon(String no_telepon) {
-        this.no_telepon = no_telepon;
-    }
-    
-    public String getNoTelepon() {
-        return this.no_telepon;
-    }
-    
-    public void setEmail(String email) {
-        this.email = email;
-    }
-    
-    public String getEmail() {
-        return this.email;
+    public String getEmail(){
+        return email;
     }
 }
