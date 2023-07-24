@@ -9,14 +9,14 @@ package Raihan080423;
  * @author Acer
  */
 public class Manusia extends LivingThing{
-    public void Berjalan(){
-    System.out.println("Manusia berjalan");
+    public void berjalan(){
+        System.out.println("Berjalan seperti manusia...");
     }
     
     public static void main(String[] args){
-       Kuda k = new Kuda();
-        k.bernapas();
-        k.Makan();
-        k.Berjalan();
+        Manusia m = new Manusia();
+        m.bernapas();
+        m.makan();
+        m.berjalan();
     }
 }

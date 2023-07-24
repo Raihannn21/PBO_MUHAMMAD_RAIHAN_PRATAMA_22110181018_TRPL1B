@@ -8,8 +8,15 @@ package Raihan080423;
  *
  * @author Acer
  */
-public class Kuda extends LivingThing{
-    public void berjalan(){
-        System.out.println("Berjalan seperti kuda...");
+public class Circle extends Shape{
+    private int radius;
+    public Circle(int radius){
+        this.radius=radius;
     }
+    public double getArea(){
+        return 3.14 * radius*radius;
+    }
+    public String getName(){
+        return "Lingkaran";
+   }
 }

@@ -10,18 +10,19 @@ package Raihan080423;
  */
 public class Student extends Person{
     public Student(){
-        super("Ali","Padang");
-         System.out.println("Inside Student:Constructor");
+        super( "Ali", "Padang" );
+        System.out.println("Inside Student:Constructor");
     }
     
     @Override
-     public String getName(){ 
-         System.out.println("Student :getName");
-         return name; 
+    public String getName(){
+        System.out.println("Student: getName");
+        return name;
     } 
-    public static void main(String[] args){
-        Student Student = new Student();
-        System.out.println("Nama    :"+Student.name);
-        System.out.println("Alamat  :"+Student.address);
-    }
-}
+
+    public static void main( String[] args ){
+        Student student = new Student();
+        System.out.println("Nama  : "+student.name);
+        System.out.println("Alamat: "+student.address);
+    } 
+} 

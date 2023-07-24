@@ -10,10 +10,11 @@ package Raihan080423;
  */
 public abstract class LivingThing {
     public void bernapas(){
-     System.out.println("Bernapas....");
+        System.out.println("Bernapas seperti makhluk hidup...");
     }
-     public void Makan(){
-     System.out.println("Makan....");
+    public void makan(){
+        System.out.println("Makan seperti makhluk hidup...");
     }
-    public abstract void Berjalan();
+    
+    public abstract void berjalan();
 }
